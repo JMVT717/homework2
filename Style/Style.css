@@ -26,6 +26,7 @@ body {
     display: flex;
     justify-content: space-between;
     min-width: 300px;
+    font-family: 'Rampart One', cursive;
   }
 
   nav a {
@@ -43,40 +44,77 @@ body {
     width: 300px;
     height: 300px;
     padding-top: 20px;
-    max-width: 500px;
+    padding-left: 50px;
   }
 
 
   main {
       display: flex;
       text-align: left;
+      line-height: 25px;
+
+
   }
 
   h1 {
       text-align: center;
-      font-family: fantasy;
-  }
-
-  aside {
-    flex: 1;
-    padding: 50px;
-    text-align: right;
-    line-height: 150px;
-  }
-
-  .About, p {
-      max-width: 100%;
-      padding-top: 260px;
-      text-align: center;
+      font-family: 'Rampart One', cursive;
       
   }
 
-  .Work {
-      max-width: 100%;
+  aside {
+   /* justify-content: center; */
+    /* flex: 1; */
+    padding: 150px;
+    text-align: center;
+    line-height: 50px;
+    border-right: 2px solid #13293d;
+    font-family: 'Rampart One', cursive;
+    
+  }
+
+  .about {
+    padding-bottom: 50px;
+    text-align: center;
+    border-top: 2px dashed #13293d;
+  }
+
+  .aboutp {
+    padding-bottom: 50px;
+    padding-top: 200px;
+    text-align: center;
+    line-height: 25px ;
+  }
+  
+  .work {
+    max-width: 100%;
+      padding-top: 350px;
       text-align: center;
+      border-top: 2px dashed #13293d;
+      padding-bottom: 150px;
+  }
+.workp {
+  padding-top: 350px;
+  text-align: center;
+  padding-bottom: 150px;
+  line-height: 25px;
+  image-rendering: auto;
+  border-image-width: 25px;
+}
+  
+  .contact {
+      max-width: 100%;
+      padding-top: 200px;
+      text-align: center;
+      border-top: 2px dashed #13293d;
+      
+  }
+  .contactp {
+    padding-top: 215px;
+    text-align: center;
+    line-height: 25px;
+    list-style: none;
+
   }
 
-  .Contact {
-
-  }
 
