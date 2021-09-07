@@ -63,8 +63,8 @@ body {
   }
 
   aside {
-   /* justify-content: center; */
-    /* flex: 1; */
+   justify-content: center;
+    flex: 1;
     padding: 150px;
     text-align: center;
     line-height: 50px;
