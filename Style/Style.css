@@ -9,6 +9,7 @@ body {
     flex-direction:column;
     line-height: 1.3;
     text-align:left;
+    background-color: silver;
     
   }
   
@@ -41,10 +42,11 @@ body {
   }
 
   img {
-    width: 300px;
-    height: 300px;
+    width: 500px;
+    height: 500px;
+    justify-content: space-around;
     padding-top: 20px;
-    padding-left: 50px;
+    padding-left: 55px;
   }
 
 
@@ -76,25 +78,25 @@ body {
   .about {
     padding-bottom: 50px;
     text-align: center;
-    border-top: 2px dashed #13293d;
+    border-top: 5px dashed #13293d;
   }
 
   .aboutp {
     padding-bottom: 50px;
     padding-top: 200px;
+    justify-content: center;
     text-align: center;
     line-height: 25px ;
   }
   
   .work {
     max-width: 100%;
-      padding-top: 350px;
       text-align: center;
-      border-top: 2px dashed #13293d;
+      border-top: 5px dashed #13293d;
       padding-bottom: 150px;
   }
 .workp {
-  padding-top: 225px;
+  
   text-align: center;
   padding-bottom: 150px;
   line-height: 25px;
@@ -104,13 +106,11 @@ body {
   
   .contact {
       max-width: 100%;
-      padding-top: 200px;
       text-align: center;
-      border-top: 2px dashed #13293d;
+      border-top: 5px dashed #13293d;
       
   }
   .contactp {
-    padding-top: 215px;
     text-align: center;
     line-height: 25px;
     list-style: none;
